@@ -243,10 +243,7 @@ export async function fetchJobsForRecruiterAction(id) {
 
 export async function fetchJobsForCandidateAction(filterParams = {}) {
   try {
-    // await connectToDb();
-    // const jobs = await Job.find().populate("applicants").exec();
-    // // console.log(jobs);
-    // return JSON.parse(JSON.stringify(jobs));
+    
     let updatedParams = {};
     Object.keys(filterParams).forEach((filterKey) => {
       updatedParams[filterKey] = { $in: filterParams[filterKey].split(",") };
