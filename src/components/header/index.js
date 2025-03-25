@@ -59,7 +59,7 @@ const expirationTime = user?.expires - Date.now();
     <>
       <head>
         <link rel="icon" href="/images/My favicon Ima.ico" />
-        <meta name="google-site-verification" content="5LdhfrfbVQUv7cJeDGoaM_1FJFhRveU-9KhtbRk9_qA" />
+        <meta name="google-site-verification" content="lSkBVu3gGWgULeCIHToSrDMNRY1nd5y-bOha8V9yWYU" />
         <title>{`GIHU JOBS   ${headerTitle ? "~" + headerTitle : ""}`}</title>
       </head>
       <header className="flex h-16 w-full shrink-0 items-center">
